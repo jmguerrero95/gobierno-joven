@@ -25,7 +25,7 @@ body
 
 #cuadros
 {
-	width: 100%;
+	width: 300vh;
 }
 
 #caj_cuadros
@@ -41,13 +41,21 @@ body
 #contenido
 {
 	background: linear-gradient(#01A8E0, #0133E0);
-	height: 200%;
+
 }
 
 .letras_grandes
 {
 	color: white;
-	font-size: 230%;
+	font-size: 5.5vh;
+}
+.letras_grandes_tablet
+{
+	color: white;
+	font-size: 2.5vh;
+}
+.espacio{
+	padding: 3%
 }
 
 .cuadros_peque
@@ -68,6 +76,7 @@ body
     margin-top: 8%;
     padding-bottom: 10%;
     padding-left: 14%;
+    font-weight: bold;
 }
 /*#descripcion
 {
@@ -82,4 +91,48 @@ body
 #texto_footer
 {
 	font-size: 80%;
+}
+#fondo_circulos{
+	background: url('../recursos/circulos.png') no-repeat center;
+	background-size: contain;
+	width: 100%;
+	height: 100%;
+}
+#bloque1
+{
+	border-right: 2px white solid;
+
+}
+.bloque_movil
+{
+	border-top: 2px white solid;
+	border-bottom: 2px white solid;
+
+}
+#bloque2
+{
+	border-right: 2px white solid;
+
+}
+#bloque_triple
+{
+	margin-left: 12vh !important;
+}
+.bloque_triple_tablet
+{
+	margin-left: 4vh !important;
+}
+.negrita
+{
+	font-weight: bold;
+}
+@keyframes bounce {
+    0% { transform: translateY(0%); }   /* Primer fotograma */
+    25% { transform: translateY(-20%); }   /* Último fotograma */
+	50% {opacity: 0.1;}
+	60%{opacity: 1;}
+	100%{transform: translateY(0%);}    
+}
+#mouse{
+	animation: bounce 4s ease-in-out infinite;
 }
