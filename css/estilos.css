@@ -4,7 +4,9 @@ body
 	margin: 0 !important;
 	overflow-x: hidden;
 }
-
+#img_princi{
+	width: 15%;
+}
 #todo
 {
 	padding: 0 !important;
@@ -76,7 +78,9 @@ body
     margin-top: 8%;
     padding-bottom: 10%;
     padding-left: 14%;
-    font-weight: bold;
+}
+#des_blac{
+	font-weight: bold;
 }
 /*#descripcion
 {
@@ -90,7 +94,7 @@ body
 }*/
 #texto_footer
 {
-	font-size: 80%;
+	font-size: 87%;
 }
 #fondo_circulos{
 	background: url('../recursos/circulos.png') no-repeat center;
@@ -125,6 +129,11 @@ body
 .negrita
 {
 	font-weight: bold;
+	color: white;
+}
+#color_white
+{
+	color: white;
 }
 @keyframes bounce {
     0% { transform: translateY(0%); }   /* Primer fotograma */
@@ -134,5 +143,23 @@ body
 	100%{transform: translateY(0%);}    
 }
 #mouse{
-	animation: bounce 4s ease-in-out infinite;
+	animation: bounce 2s ease-in-out infinite;
+}
+.mouse{
+	position: absolute; !important;
+	bottom: 6%;
+	z-index: 3;
+}
+#primera_caja{
+	width: 100% !important;
+	margin: 0% !important;
+}
+#circulo_interior{
+	position: absolute;
+    margin-top: -46.3vh;
+    margin-left: 12.5vh;
+    width: 33.5vh;
+}
+#circulo_exterior{
+	width: 70vh;
 }
