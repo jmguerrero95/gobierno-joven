@@ -1,0 +1,14 @@
+$(document).ready(function(){
+	$("#ver_mas1").click(function(){
+		$("#oculto1").fadeIn(1000);
+		$("#ver_mas1").fadeOut();
+	})
+	$("#ver_mas2").click(function(){
+		$("#oculto2").fadeIn(1000);
+		$("#ver_mas2").fadeOut();
+	})
+	$("#ver_mas3").click(function(){
+		$("#oculto3").fadeIn(1000);
+		$("#ver_mas3").fadeOut();
+	})
+})

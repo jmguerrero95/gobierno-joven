@@ -5,7 +5,9 @@ body
 	overflow-x: hidden;
 }
 #img_princi{
-	width: 15%;
+	width: 12%;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 #todo
 {
@@ -42,14 +44,15 @@ body
 
 #contenido
 {
-	background: linear-gradient(#01A8E0, #0133E0);
+	/*background: linear-gradient(#01A8E0, #0133E0);*/
+	background-color: #01A8E0;
 
 }
 
 .letras_grandes
 {
 	color: white;
-	font-size: 5.5vh;
+	font-size: 4.6vh;
 }
 .letras_grandes_tablet
 {
@@ -62,7 +65,7 @@ body
 
 .cuadros_peque
 {
-	width: 80%;
+	width: 68%;
 }
 #bloq_comple
 {
@@ -165,4 +168,23 @@ body
 }
 #img_footer{
 	width: 110%;
+}
+.tex_consul{
+	font-size: 110%;
+}
+#oculto1, #oculto2, #oculto3{
+	display: none;
+}
+.diferente{
+	font-weight: bold;
+	cursor: pointer;
+}
+.img_cel1{
+	margin-left: 26%;
+}
+.img_cel2{
+	margin-left: 25%;
+}
+.img_cel3{
+	margin-left: 13%;
 }
